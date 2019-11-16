@@ -1,8 +1,12 @@
 {
-  "name": "react-native-quick-scroll",
-  "version": "1.0.2",
-  "main": "index.js",
-  "author": "Faisal Arshed",
-  "license": "MIT",
-  "private": false
+	"name": "react-native-quick-scroll",
+	"version": "1.0.2",
+	"main": "index.js",
+	"author": "Faisal Arshed",
+	"license": "MIT",
+	"private": false,
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/farshed/react-native-quick-scroll.git"
+	}
 }
