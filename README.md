@@ -21,11 +21,8 @@ import QuickScrollList from 'react-native-quick-scroll';
 ```
 <QuickScrollList
 	keyExtractor={(asset, index) => String(asset.id)}
-	data={media}
-	renderItem={this.renderSongs}
-	onRefresh={this.refreshList}
-	initialScrollIndex={canScan ? currentTrack.index : undefined}
-	showsVerticalScrollIndicator={false}
+	data={dataArray}
+	renderItem={this.renderItem}
 	itemHeight={60}
 	viewportHeight={ScreenHeight - TabHeight}
 />
