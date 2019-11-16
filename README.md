@@ -36,7 +36,7 @@ import QuickScrollList from 'react-native-quick-scroll';
 Inherits the following properties as well as all [FlatList props](#https://facebook.github.io/react-native/docs/flatlist#props), except `ref` and `showsVerticalScrollIndicator`
 
 | Prop | Type | Default Value | Description | Required |
-|---|---|---|---|
+|-----|-----|-----|-----|-----|
 | `itemHeight` | `number` | | Height of an item in the FlatList | Yes |
 | `viewportHeight` | `number` | | Height of the FlatList area visible on screen at a given time | Yes |
 | `thumbHeight` | `number` | `80` | Height of the scroll bar thumb | No |
