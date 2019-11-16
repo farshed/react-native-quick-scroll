@@ -123,6 +123,7 @@ class FastScroll extends React.Component {
 					ref={this.createRef}
 					onScroll={this.onScroll}
 					onScrollEndDrag={this.onScrollEnd}
+					showsVerticalScrollIndicator={false}
 				/>
 				<Animated.View
 					style={[
