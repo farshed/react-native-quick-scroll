@@ -33,7 +33,7 @@ import QuickScrollList from 'react-native-quick-scroll';
 
 # Props
 
-Inherits the following properties as well as all [FlatList props](#https://facebook.github.io/react-native/docs/flatlist#props), except `ref` and `showsVerticalScrollIndicator`
+Inherits the following properties as well as all [FlatList props](https://facebook.github.io/react-native/docs/flatlist#props), except `ref` and `showsVerticalScrollIndicator`
 
 | Prop | Type | Default Value | Description | Required |
 |-----|-----|-----|-----|-----|
