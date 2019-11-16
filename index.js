@@ -1,1 +1,1 @@
-export { default as QuickScrollList } from './src/QuickScrollList';
+export { default } from './src/QuickScrollList';
