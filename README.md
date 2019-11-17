@@ -1,6 +1,6 @@
 # react-native-quick-scroll [![npm version](https://img.shields.io/npm/v/react-native-quick-scroll.svg?style=flat)](https://www.npmjs.com/package/react-native-quick-scroll)
 
-React Native FlatList component for scrolling through large lists using the scrollbar thumb
+Customizable and performant React Native scroll bar component for quickly scrolling through large lists (based on FlatList)
 
 # Demo
 
