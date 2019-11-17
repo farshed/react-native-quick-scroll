@@ -1,6 +1,6 @@
 # react-native-quick-scroll [![npm version](https://img.shields.io/npm/v/react-native-quick-scroll.svg?style=flat)](https://www.npmjs.com/package/react-native-quick-scroll)
 
-React Native FlatList component which allows you to scroll through large lists using the scrollbar thumb
+React Native FlatList component for scrolling through large lists using the scrollbar thumb
 
 # Installation
 
@@ -30,7 +30,7 @@ import QuickScrollList from 'react-native-quick-scroll';
 
 # Props
 
-Inherits the following properties as well as all [FlatList props](https://facebook.github.io/react-native/docs/flatlist#props), except `ref` and `showsVerticalScrollIndicator`
+Inherits all valid [FlatList props](https://facebook.github.io/react-native/docs/flatlist#props), except `ref` and `showsVerticalScrollIndicator`. Also accepts the following props:
 
 | Prop | Type | Default Value | Description | Required |
 |-----|-----|-----|-----|-----|
@@ -46,6 +46,8 @@ Inherits the following properties as well as all [FlatList props](https://facebo
 | `containerStyle` | `object` | | Style object for the parent container | No |
 | `hiddenPosition` | `number` | `ScreenWidth + 15` | The offscreen position where the scroll bar thumb moves to after `flashOutDuration` | No |
 
+
 # Todo (PRs welcome!)
 - [ ] Add native driver support
 - [ ] Rewrite with TypeScript
+- [ ] Add support for FlatList ref
