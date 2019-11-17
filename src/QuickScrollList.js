@@ -47,7 +47,7 @@ class FastScroll extends React.Component {
 
 	onThumbDrag(event, gesture) {
 		const { data, itemHeight, thumbHeight, viewportHeight } = this.props;
-		// Animated.event([null, { dy: this.position.y }])(event, gesture);
+		// Animated.event([null, { dy: this.position.y }], { useNativeDriver: true })(event, gesture);
 		this.position.setValue({ x: 0, y: gesture.moveY });
 		const thumbOffset = this.position.__getValue().y;
 		const lastIndex = Math.floor((data.length * itemHeight - viewportHeight) / itemHeight) + 1;
@@ -75,7 +75,8 @@ class FastScroll extends React.Component {
 		const { flashDuration, rightOffset } = this.props;
 		Animated.timing(this.state.scrollBar, {
 			toValue: ScreenWidth - rightOffset,
-			duration: flashDuration
+			duration: flashDuration,
+			useNativeDriver: true
 		}).start();
 	};
 
@@ -89,7 +90,8 @@ class FastScroll extends React.Component {
 		const { flashDuration, flashOutDuration } = this.props;
 		const flashOut = Animated.timing(this.state.scrollBar, {
 			toValue: this.props.hiddenPosition,
-			duration: flashDuration
+			duration: flashDuration,
+			useNativeDriver: true
 		});
 		setTimeout(() => flashOut.start(), flashOutDuration);
 		this.props.onScrollEndDrag(event, gesture);
