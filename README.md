@@ -2,6 +2,10 @@
 
 React Native FlatList component for scrolling through large lists using the scrollbar thumb
 
+# Demo
+
+![Demo gif](https://github.com/farshed/react-native-quick-scroll/blob/master/demo/rec.gif?raw=true)
+
 # Installation
 
 Install with npm
