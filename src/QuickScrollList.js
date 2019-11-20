@@ -164,7 +164,7 @@ const styles = {
 		alignItems: 'center'
 	},
 	touchArea: {
-		backgroundColor: 'black',
+		backgroundColor: 'transparent',
 		alignItems: 'center'
 	},
 	thumb: {
