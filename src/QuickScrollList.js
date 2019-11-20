@@ -160,22 +160,17 @@ const styles = {
 	scrollBar: {
 		position: 'absolute',
 		width: 10,
-		backgroundColor: 'transparent'
+		backgroundColor: 'transparent',
+		alignItems: 'center'
 	},
 	touchArea: {
-		position: 'absolute',
-		backgroundColor: 'transparent'
+		backgroundColor: 'black',
+		alignItems: 'center'
 	},
 	thumb: {
-		position: 'absolute',
-		width: 7,
+		width: 6,
 		borderRadius: 4,
-		backgroundColor: 'white',
-		borderWidth: 0.2,
-		borderColor: 'black',
+		backgroundColor: '#4C4C4C',
 		elevation: 2
 	}
 };
-
-// event.nativeEvent.pageY; //distance of TOUCH from the top of the screen
-// this.position.__getValue().y; //distance of thumb from the top of the screen

@@ -52,6 +52,7 @@ Inherits all valid [FlatList props](https://facebook.github.io/react-native/docs
 
 
 # Todo (PRs welcome!)
-- [ ] Add native driver support
+- [x] Add native driver support
+- [ ] Implement with [react-native-interactable](https://github.com/wix/react-native-interactable) for better performance
 - [ ] Rewrite with TypeScript
 - [ ] Add support for FlatList ref
