@@ -9,20 +9,23 @@ Customizable and performant React Native scroll bar component for quickly scroll
 # Installation
 
 Install with npm
-```
+
+```bash
 npm install --save react-native-quick-scroll
 ```
 Or install with Yarn
-```
+
+```bash
 yarn add react-native-quick-scroll
 ```
 
 # Usage
 
-```
+```js
 import QuickScrollList from 'react-native-quick-scroll';
 ```
-```
+
+```js
 <QuickScrollList
 	keyExtractor={(asset, index) => String(asset.id)}
 	data={dataArray}
