@@ -8,5 +8,13 @@
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/farshed/react-native-quick-scroll.git"
-	}
+	},
+	"keywords": [
+		"react-native",
+		"fast-scroll",
+		"flatlist",
+		"custom",
+		"scrollbar",
+		"quick-scroll"
+	]
 }

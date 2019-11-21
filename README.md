@@ -2,11 +2,11 @@
 
 Customizable and performant React Native scroll bar component for quickly scrolling through large lists (based on FlatList)
 
-# Demo
+## Demo
 
 ![Demo gif](https://github.com/farshed/react-native-quick-scroll/blob/master/demo/rec.gif?raw=true)
 
-# Installation
+## Installation
 
 Install with npm
 
@@ -19,7 +19,7 @@ Or install with Yarn
 yarn add react-native-quick-scroll
 ```
 
-# Usage
+## Usage
 
 ```js
 import QuickScrollList from 'react-native-quick-scroll';
@@ -35,7 +35,7 @@ import QuickScrollList from 'react-native-quick-scroll';
 />
 ```
 
-# Props
+## Props
 
 Inherits all valid [FlatList props](https://facebook.github.io/react-native/docs/flatlist#props), except `ref` and `showsVerticalScrollIndicator`. Also accepts the following props:
 
@@ -54,7 +54,7 @@ Inherits all valid [FlatList props](https://facebook.github.io/react-native/docs
 | `hiddenPosition` | `number` | `ScreenWidth + 15` | The off-screen position where the scroll bar thumb moves to after `flashOutDuration` | No |
 
 
-# Todo (PRs welcome!)
+## Todo (PRs welcome!)
 - [x] Add native driver support
 - [ ] Implement with [react-native-interactable](https://github.com/wix/react-native-interactable) for better performance
 - [ ] Rewrite with TypeScript
