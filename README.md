@@ -27,7 +27,7 @@ import QuickScrollList from 'react-native-quick-scroll';
 
 ```js
 <QuickScrollList
-	keyExtractor={(asset, index) => String(asset.id)}
+	keyExtractor={(item, index) => String(item.id)}
 	data={dataArray}
 	renderItem={this.renderItem}
 	itemHeight={60}
