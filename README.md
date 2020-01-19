@@ -64,6 +64,7 @@ Inherits all valid [FlatList props](https://facebook.github.io/react-native/docs
 ## Todo (PRs welcome!)
 - [x] Native driver support
 - [x] Reimplement with Gesture Handler
+- [ ] Replace Animated with Reanimated
 - [ ] Add TypeScript typings
 - [ ] Support for horizontal FlatList
 - [x] Support for FlatList ref
