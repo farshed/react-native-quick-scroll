@@ -54,7 +54,7 @@ Inherits all valid [FlatList props](https://facebook.github.io/react-native/docs
 | `touchAreaWidth` | `number` | `25` | Width of the touchable area that extends from the left edge of the thumb | No |
 | `flashDuration` | `number` | `40` | The time taken by the animation to move scroll bar on-screen after the scroll has begun (in ms) | No |
 | `flashOutDuration` | `number` | `2000` | The time after which scroll bar disappears (in ms) | No |
-| `rightOffset` | `number` | `12` | The distance of the scroll bar from the right edge of screen | No |
+| `rightOffset` | `number` | `10` | The distance of the scroll bar from the right edge of screen | No |
 | `thumbStyle` | `object` | | Style object for the scroll bar thumb (Don't pass `height` here, use the `thumbHeight` prop instead) | No |
 | `scrollbarStyle` | `object` | | Style object for the scroll bar | No |
 | `containerStyle` | `object` | | Style object for the parent container | No |
